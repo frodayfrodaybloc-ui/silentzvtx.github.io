@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>silentzvtx | Content Creator</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f0f0f;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(to bottom, #000, #111);
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    header p {
+      margin: 15px 0;
+      color: #aaa;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      border: none;
+      background: #ff3c78;
+      color: white;
+      cursor: pointer;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    .about, .contact {
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #ff3c78;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #000;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>silentzvtx</h1>
+    <p>Content Creator | Anime & Gaming Communities</p>
+    <a href="#communities" class="btn">View My Work</a>
+  </div>
+</header>
+
+<section class="about">
+  <h2>About Me</h2>
+  <p>
+    Content creator: Anime Vanguard, The Forge, Bite By Night, Hunty Zombies, 
+    Fisch (Soon), Sailor Piece (Soon), Solo Hunter ReAwakened, Bizzare Lineage, 
+    DevilHunters, Anime Warlords, Ghoul RE, Type Soul, Anime Eternal, Mugen, 
+    Raise Animals, Garden Horizon, Blue Heater, Parkour Champion, Manhwa Legends
+  </p>
+</section>
+
+<section id="communities">
+  <h2>My Communities</h2>
+  <div class="grid">
+
+    <div class="card"><h3>Anime Vanguards</h3><a href="https://discord.gg/q7R9uJnvTA" target="_blank">Join Discord →</a></div>
+    <div class="card"><h3>Manhwa Legends</h3><a href="https://discord.gg/mhl" target="_blank">Join Discord →</a></div>
+    <div class="card"><h3>Sailor Piece</h3><a href="https://discord.gg/sailorpiece" target="_blank">Join Discord →</a></div>
+    <div class="card"><h3>Ghoul Re</h3><a href="https://discord.gg/ghoulre" target="_blank">Join Discord →</a></div>
+    <div class="card"><h3>Hunty Zombie</h3><a href="https://discord.gg/HuntyZombie" target="_blank">Join Discord →</a></div>
+    <div class="card"><h3>Fisch</h3><a href="https://discord.gg/fisch" target="_blank">Join Discord →</a></div>
+    <div class="card"><h3>Bite By Night</h3><a href="https://discord.gg/BiteByNight" target="_blank">Join Discord →</a></div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Games I Feature</h2>
+  <div class="grid">
+
+    <div class="card"><h3>Abyss</h3><a href="https://www.roblox.com/games/127794225497302/Abyss" target="_blank">Play →</a></div>
+    <div class="card"><h3>Solo Hunters</h3><a href="https://www.roblox.com/games/136599248168660/Solo-Hunters" target="_blank">Play →</a></div>
+    <div class="card"><h3>King Legacy</h3><a href="https://www.roblox.com/games/4520749081/King-Legacy" target="_blank">Play →</a></div>
+    <div class="card"><h3>Type Soul</h3><a href="https://www.roblox.com/games/14067600077/TYPE-SOUL" target="_blank">Play →</a></div>
+    <div class="card"><h3>The Forge</h3><a href="https://www.roblox.com/games/76558904092080/The-Forge" target="_blank">Play →</a></div>
+    <div class="card"><h3>Peroxide</h3><a href="https://www.roblox.com/games/9096881148/Peroxide" target="_blank">Play →</a></div>
+    <div class="card"><h3>Garden Horizons</h3><a href="https://www.roblox.com/games/130594398886540/Garden-Horizons" target="_blank">Play →</a></div>
+
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Contact Me</h2>
+  <p>Discord: silentzvtx</p>
+  <p>Open for collaborations & partnerships</p>
+</section>
+
+<footer>
+  <p>© 2026 silentzvtx. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
